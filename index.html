@@ -3,28 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vanilla-weather-project/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Weather project</title>
   </head>
   <body>
     <div class="container">
       <form action="/submit">
-        <input placeholder="Enter a city" required />
+        <input placeholder="Enter a city" required class="city" />
         <button type="submit">Search</button>
       </form>
-      <header>Paris</header>
-      <h1>🌟 16°C</h1>
+      <div class="weather-details">
+        <header>Paris</header>
+        <h1>🌟 16°C</h1>
+      </div>
       <div class="weather-data">
         Sunday 09:34, few clouds
         <br />Humidity: <strong>79%</strong>, Wind: <strong>2.24km/h</strong>
       </div>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Thira-254">Thira</a> and is on
+        <a href="https://github.com/Thira-254/vanilla-weather-project"
+          >Github</a
+        >
+        and is hosted
+        <a href="https://app.netlify.com/projects/vanilla-p/overview"
+          >Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Thira-254">Thira</a> and is on
-      <a href="https://github.com/Thira-254/vanilla-weather-project">Github</a>
-      and is hosted
-      <a href="https://app.netlify.com/projects/vanilla-p/overview">Netlify</a>
-    </footer>
   </body>
 </html>
