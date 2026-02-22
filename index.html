@@ -9,12 +9,17 @@
   <body>
     <div class="container">
       <form action="/submit">
-        <input placeholder="Enter a city" required class="city" />
+        <input
+          class="city-search"
+          placeholder="Enter a city"
+          required
+          class="city"
+        />
         <button type="submit">Search</button>
       </form>
       <div class="weather-details">
         <header>Paris</header>
-        <h1>🌟 16°C</h1>
+        <h1>🌟 16<span class="temperature-unit">°C</span></h1>
       </div>
       <div class="weather-data">
         Sunday 09:34, few clouds
@@ -23,13 +28,13 @@
 
       <footer>
         This project was coded by
-        <a href="https://github.com/Thira-254">Thira</a> and is on
-        <a href="https://github.com/Thira-254/vanilla-weather-project"
-          >Github</a
+        <a href="https://github.com/Thira-254">Thira</a> is
+        <a href="https://github.com/Thira-254/vanilla-weather-project">
+          open sourced on Github</a
         >
-        and is hosted
-        <a href="https://app.netlify.com/projects/vanilla-p/overview"
-          >Netlify</a
+        and
+        <a href="https://app.netlify.com/projects/vanilla-p/overview">
+          hosted on Netlify</a
         >
       </footer>
     </div>
